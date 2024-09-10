@@ -40,3 +40,19 @@ case 4:
                     System.out.println(e.getMessage());
                 }
                 break;
+ case 5:
+                try {
+                    System.out.println("Result: " + calcu.modulus((int) num1, (int) num2));
+                } catch (ArithmeticException e) {
+                    System.out.println(e.getMessage());
+                }
+                break;
+            default:
+                System.out.println("Invalid choice.");
+                break;
+        }
+
+        // Close the scanner
+        scanner.close();
+    }
+}
