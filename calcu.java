@@ -30,3 +30,6 @@ case 1:
 case 2:
                 System.out.println("Result: " + calcu.subtract((int) num1, (int) num2));
                 break;
+case 3:
+                System.out.println("Result: " + calcu.multiply((int) num1, (int) num2));
+                break;
