@@ -27,3 +27,6 @@ public class Calcu {
 case 1:
                 System.out.println("Result: " + calcu.add((int) num1, (int) num2));
                 break;
+case 2:
+                System.out.println("Result: " + calcu.subtract((int) num1, (int) num2));
+                break;
