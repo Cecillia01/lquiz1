@@ -33,3 +33,10 @@ case 2:
 case 3:
                 System.out.println("Result: " + calcu.multiply((int) num1, (int) num2));
                 break;
+case 4:
+                try {
+                    System.out.println("Result: " + calcu.divide(num1, num2));
+                } catch (ArithmeticException e) {
+                    System.out.println(e.getMessage());
+                }
+                break;
